@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F87D61F288F2DCF00284ED4 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87D61D288F2DCF00284ED4 /* CarCell.swift */; };
+		7F87D620288F2DCF00284ED4 /* CarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F87D61E288F2DCF00284ED4 /* CarCell.xib */; };
+		7F87D622288F33E700284ED4 /* CarsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87D621288F33E700284ED4 /* CarsController.swift */; };
+		7F87D626288F37C800284ED4 /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87D624288F37C800284ED4 /* ServiceCell.swift */; };
+		7F87D627288F37C800284ED4 /* ServiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F87D625288F37C800284ED4 /* ServiceCell.xib */; };
+		7F87D62B288F37E000284ED4 /* FileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87D629288F37E000284ED4 /* FileCell.swift */; };
+		7F87D62C288F37E000284ED4 /* FileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F87D62A288F37E000284ED4 /* FileCell.xib */; };
+		7F87D62F288F380000284ED4 /* CarInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87D62D288F380000284ED4 /* CarInfoController.swift */; };
+		7F87D630288F380000284ED4 /* CarInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F87D62E288F380000284ED4 /* CarInfoController.xib */; };
+		7F87D633288F451100284ED4 /* InfoPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87D632288F451100284ED4 /* InfoPageController.swift */; };
+		7F87D636288F46B400284ED4 /* ServicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87D635288F46B400284ED4 /* ServicesController.swift */; };
+		7F87D638288F46EE00284ED4 /* FilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87D637288F46EE00284ED4 /* FilesController.swift */; };
 		7FF94AD3288F2A0500E933D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF94AD2288F2A0500E933D7 /* AppDelegate.swift */; };
 		7FF94AD5288F2A0500E933D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF94AD4288F2A0500E933D7 /* SceneDelegate.swift */; };
-		7FF94AD7288F2A0500E933D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF94AD6288F2A0500E933D7 /* ViewController.swift */; };
-		7FF94ADA288F2A0500E933D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF94AD8288F2A0500E933D7 /* Main.storyboard */; };
 		7FF94ADC288F2A0700E933D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF94ADB288F2A0700E933D7 /* Assets.xcassets */; };
 		7FF94ADF288F2A0700E933D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF94ADD288F2A0700E933D7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F87D61D288F2DCF00284ED4 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		7F87D61E288F2DCF00284ED4 /* CarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarCell.xib; sourceTree = "<group>"; };
+		7F87D621288F33E700284ED4 /* CarsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsController.swift; sourceTree = "<group>"; };
+		7F87D624288F37C800284ED4 /* ServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		7F87D625288F37C800284ED4 /* ServiceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceCell.xib; sourceTree = "<group>"; };
+		7F87D629288F37E000284ED4 /* FileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCell.swift; sourceTree = "<group>"; };
+		7F87D62A288F37E000284ED4 /* FileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FileCell.xib; sourceTree = "<group>"; };
+		7F87D62D288F380000284ED4 /* CarInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoController.swift; sourceTree = "<group>"; };
+		7F87D62E288F380000284ED4 /* CarInfoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarInfoController.xib; sourceTree = "<group>"; };
+		7F87D632288F451100284ED4 /* InfoPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageController.swift; sourceTree = "<group>"; };
+		7F87D635288F46B400284ED4 /* ServicesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesController.swift; sourceTree = "<group>"; };
+		7F87D637288F46EE00284ED4 /* FilesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesController.swift; sourceTree = "<group>"; };
 		7FF94ACF288F2A0500E933D7 /* Car Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF94AD2288F2A0500E933D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FF94AD4288F2A0500E933D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7FF94AD6288F2A0500E933D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7FF94AD9288F2A0500E933D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FF94ADB288F2A0700E933D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FF94ADE288F2A0700E933D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FF94AE0288F2A0700E933D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +57,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F87D61A288F2C9A00284ED4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F87D631288F447F00284ED4 /* CarInfoController */,
+				7F87D621288F33E700284ED4 /* CarsController.swift */,
+				7F87D632288F451100284ED4 /* InfoPageController.swift */,
+				7F87D635288F46B400284ED4 /* ServicesController.swift */,
+				7F87D637288F46EE00284ED4 /* FilesController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7F87D61B288F2CC300284ED4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7F87D628288F37CD00284ED4 /* FileCell */,
+				7F87D623288F37B100284ED4 /* ServiceCell */,
+				7F87D61C288F2DAF00284ED4 /* CarCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7F87D61C288F2DAF00284ED4 /* CarCell */ = {
+			isa = PBXGroup;
+			children = (
+				7F87D61D288F2DCF00284ED4 /* CarCell.swift */,
+				7F87D61E288F2DCF00284ED4 /* CarCell.xib */,
+			);
+			path = CarCell;
+			sourceTree = "<group>";
+		};
+		7F87D623288F37B100284ED4 /* ServiceCell */ = {
+			isa = PBXGroup;
+			children = (
+				7F87D624288F37C800284ED4 /* ServiceCell.swift */,
+				7F87D625288F37C800284ED4 /* ServiceCell.xib */,
+			);
+			path = ServiceCell;
+			sourceTree = "<group>";
+		};
+		7F87D628288F37CD00284ED4 /* FileCell */ = {
+			isa = PBXGroup;
+			children = (
+				7F87D629288F37E000284ED4 /* FileCell.swift */,
+				7F87D62A288F37E000284ED4 /* FileCell.xib */,
+			);
+			path = FileCell;
+			sourceTree = "<group>";
+		};
+		7F87D631288F447F00284ED4 /* CarInfoController */ = {
+			isa = PBXGroup;
+			children = (
+				7F87D62D288F380000284ED4 /* CarInfoController.swift */,
+				7F87D62E288F380000284ED4 /* CarInfoController.xib */,
+			);
+			path = CarInfoController;
+			sourceTree = "<group>";
+		};
 		7FF94AC6288F2A0500E933D7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +134,10 @@
 		7FF94AD1288F2A0500E933D7 /* Car Check */ = {
 			isa = PBXGroup;
 			children = (
+				7F87D61A288F2C9A00284ED4 /* Controllers */,
+				7F87D61B288F2CC300284ED4 /* Cells */,
 				7FF94AD2288F2A0500E933D7 /* AppDelegate.swift */,
 				7FF94AD4288F2A0500E933D7 /* SceneDelegate.swift */,
-				7FF94AD6288F2A0500E933D7 /* ViewController.swift */,
-				7FF94AD8288F2A0500E933D7 /* Main.storyboard */,
 				7FF94ADB288F2A0700E933D7 /* Assets.xcassets */,
 				7FF94ADD288F2A0700E933D7 /* LaunchScreen.storyboard */,
 				7FF94AE0288F2A0700E933D7 /* Info.plist */,
@@ -126,8 +204,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FF94ADF288F2A0700E933D7 /* LaunchScreen.storyboard in Resources */,
+				7F87D627288F37C800284ED4 /* ServiceCell.xib in Resources */,
+				7F87D620288F2DCF00284ED4 /* CarCell.xib in Resources */,
+				7F87D630288F380000284ED4 /* CarInfoController.xib in Resources */,
+				7F87D62C288F37E000284ED4 /* FileCell.xib in Resources */,
 				7FF94ADC288F2A0700E933D7 /* Assets.xcassets in Resources */,
-				7FF94ADA288F2A0500E933D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FF94AD7288F2A0500E933D7 /* ViewController.swift in Sources */,
+				7F87D636288F46B400284ED4 /* ServicesController.swift in Sources */,
+				7F87D633288F451100284ED4 /* InfoPageController.swift in Sources */,
+				7F87D622288F33E700284ED4 /* CarsController.swift in Sources */,
+				7F87D638288F46EE00284ED4 /* FilesController.swift in Sources */,
+				7F87D61F288F2DCF00284ED4 /* CarCell.swift in Sources */,
+				7F87D626288F37C800284ED4 /* ServiceCell.swift in Sources */,
+				7F87D62F288F380000284ED4 /* CarInfoController.swift in Sources */,
+				7F87D62B288F37E000284ED4 /* FileCell.swift in Sources */,
 				7FF94AD3288F2A0500E933D7 /* AppDelegate.swift in Sources */,
 				7FF94AD5288F2A0500E933D7 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +235,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7FF94AD8288F2A0500E933D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7FF94AD9288F2A0500E933D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7FF94ADD288F2A0700E933D7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +372,9 @@
 				INFOPLIST_FILE = "Car Check/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +384,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +400,9 @@
 				INFOPLIST_FILE = "Car Check/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +412,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
