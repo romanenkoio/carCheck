@@ -19,5 +19,13 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Mulish-Regular.ttf</string>
+		<string>SFPRODISPLAYBOLD.OTF</string>
+		<string>Rubik-Regular.ttf</string>
+		<string>Rubik-Medium.ttf</string>
+		<string></string>
+	</array>
 </dict>
 </plist>

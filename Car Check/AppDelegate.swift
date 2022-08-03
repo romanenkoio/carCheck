@@ -10,10 +10,8 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        registerFonts()
         return true
     }
 
@@ -32,5 +30,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+extension AppDelegate {
+    func registerFonts() {
+        let fonts = Bundle.main.urls(forResourcesWithExtension: "ttf", subdirectory: nil)
+        let fontsOtf = Bundle.main.urls(forResourcesWithExtension: "OTF", subdirectory: nil)
+        
+        fonts?.forEach({ url in
+            CTFontManagerRegisterFontsForURL(url as CFURL, .process, nil)
+        })
+        fontsOtf?.forEach({ url in
+            CTFontManagerRegisterFontsForURL(url as CFURL, .process, nil)
+        })
+    }
 }
 
