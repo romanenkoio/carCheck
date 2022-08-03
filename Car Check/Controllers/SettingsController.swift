@@ -28,11 +28,11 @@ class SettingsController: UIViewController {
         view.backgroundColor = .white
         navigationItem.largeTitleDisplayMode = .always
         navigationController?.navigationBar.prefersLargeTitles = true
+        setupUI()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        setupUI()
     }
     
     private func setupUI() {
