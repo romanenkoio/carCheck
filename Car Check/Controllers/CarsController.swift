@@ -21,7 +21,7 @@ class CarsController: UIViewController {
     
     private var addButton: UIButton {
         let screen = UIScreen.main.bounds
-        let button = UIButton(frame: CGRect(x: 20, y: tableView.frame.maxY - 80, width: screen.width - 40, height: 40))
+        let button = UIButton(frame: CGRect(x: 20, y: tableView.frame.maxY - 150, width: screen.width - 40, height: 40))
         button.setTitle("Добавить автомобиль", for: .normal)
         button.setTitleColor(.black, for: .normal)
         return button
