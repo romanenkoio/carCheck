@@ -34,6 +34,13 @@
 		7FAD7CE5289AE77D000FA996 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD7CE4289AE77D000FA996 /* TabBarController.swift */; };
 		7FAD7CE8289AE7CE000FA996 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD7CE7289AE7CE000FA996 /* UIViewController+Extensions.swift */; };
 		7FAD7CEC289AEA12000FA996 /* ServicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD7CEB289AEA12000FA996 /* ServicesController.swift */; };
+		7FAD7CF0289AF867000FA996 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD7CEF289AF867000FA996 /* SettingsController.swift */; };
+		7FAD7CF8289AF8E3000FA996 /* CCSettingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD7CF7289AF8E3000FA996 /* CCSettingPoint.swift */; };
+		7FAD7CFF289AF998000FA996 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD7CFE289AF998000FA996 /* UITableView+Extensions.swift */; };
+		7FAD7D0A289AFD84000FA996 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FAD7D05289AFD84000FA996 /* SettingCell.xib */; };
+		7FAD7D0B289AFD84000FA996 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD7D06289AFD84000FA996 /* SettingCell.swift */; };
+		7FAD7D0C289AFD84000FA996 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD7D08289AFD84000FA996 /* ProfileCell.swift */; };
+		7FAD7D0D289AFD84000FA996 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FAD7D09289AFD84000FA996 /* ProfileCell.xib */; };
 		7FF94AD3288F2A0500E933D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF94AD2288F2A0500E933D7 /* AppDelegate.swift */; };
 		7FF94AD5288F2A0500E933D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF94AD4288F2A0500E933D7 /* SceneDelegate.swift */; };
 		7FF94ADC288F2A0700E933D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF94ADB288F2A0700E933D7 /* Assets.xcassets */; };
@@ -69,6 +76,13 @@
 		7FAD7CE4289AE77D000FA996 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		7FAD7CE7289AE7CE000FA996 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		7FAD7CEB289AEA12000FA996 /* ServicesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesController.swift; sourceTree = "<group>"; };
+		7FAD7CEF289AF867000FA996 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		7FAD7CF7289AF8E3000FA996 /* CCSettingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCSettingPoint.swift; sourceTree = "<group>"; };
+		7FAD7CFE289AF998000FA996 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		7FAD7D05289AFD84000FA996 /* SettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
+		7FAD7D06289AFD84000FA996 /* SettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		7FAD7D08289AFD84000FA996 /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		7FAD7D09289AFD84000FA996 /* ProfileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
 		7FF94ACF288F2A0500E933D7 /* Car Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF94AD2288F2A0500E933D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FF94AD4288F2A0500E933D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,7 +147,9 @@
 		7F87D61A288F2C9A00284ED4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3E00E1CF289AEE9B0070AA20 /* AutentificationController */,
 				7F87D631288F447F00284ED4 /* CarInfoController */,
+				7FAD7CEF289AF867000FA996 /* SettingsController.swift */,
 				7F87D621288F33E700284ED4 /* CarsController.swift */,
 				7F87D632288F451100284ED4 /* InfoPageController.swift */,
 				7F87D637288F46EE00284ED4 /* FilesController.swift */,
@@ -146,6 +162,8 @@
 		7F87D61B288F2CC300284ED4 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				7FAD7D07289AFD84000FA996 /* AccountCell */,
+				7FAD7D04289AFD84000FA996 /* SettingCell */,
 				7F87D628288F37CD00284ED4 /* FileCell */,
 				7F87D623288F37B100284ED4 /* ServiceCell */,
 				7F87D61C288F2DAF00284ED4 /* CarCell */,
@@ -194,8 +212,35 @@
 			children = (
 				7FAD7CE7289AE7CE000FA996 /* UIViewController+Extensions.swift */,
 				3E00E1E2289AF0A50070AA20 /* UIView+Extension.swift */,
+				7FAD7CFE289AF998000FA996 /* UITableView+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7FAD7CF6289AF8CE000FA996 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7FAD7CF7289AF8E3000FA996 /* CCSettingPoint.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7FAD7D04289AFD84000FA996 /* SettingCell */ = {
+			isa = PBXGroup;
+			children = (
+				7FAD7D05289AFD84000FA996 /* SettingCell.xib */,
+				7FAD7D06289AFD84000FA996 /* SettingCell.swift */,
+			);
+			path = SettingCell;
+			sourceTree = "<group>";
+		};
+		7FAD7D07289AFD84000FA996 /* AccountCell */ = {
+			isa = PBXGroup;
+			children = (
+				7FAD7D08289AFD84000FA996 /* ProfileCell.swift */,
+				7FAD7D09289AFD84000FA996 /* ProfileCell.xib */,
+			);
+			path = AccountCell;
 			sourceTree = "<group>";
 		};
 		7FF94AC6288F2A0500E933D7 = {
@@ -219,9 +264,9 @@
 		7FF94AD1288F2A0500E933D7 /* Car Check */ = {
 			isa = PBXGroup;
 			children = (
+				7FAD7CF6289AF8CE000FA996 /* Common */,
 				3E00E1E4289AF1F70070AA20 /* Fonts */,
 				3E00E1DB289AEFB20070AA20 /* AppInfoModels */,
-				3E00E1CF289AEE9B0070AA20 /* AutentificationController */,
 				7FAD7CE6289AE7BF000FA996 /* Extensions */,
 				7F87D61A288F2C9A00284ED4 /* Controllers */,
 				7F87D61B288F2CC300284ED4 /* Cells */,
@@ -313,12 +358,14 @@
 			files = (
 				7FF94ADF288F2A0700E933D7 /* LaunchScreen.storyboard in Resources */,
 				7F87D627288F37C800284ED4 /* ServiceCell.xib in Resources */,
+				7FAD7D0A289AFD84000FA996 /* SettingCell.xib in Resources */,
 				7F87D620288F2DCF00284ED4 /* CarCell.xib in Resources */,
 				7F87D630288F380000284ED4 /* CarInfoController.xib in Resources */,
 				3E00E1EB289AF21F0070AA20 /* Rubik-Regular.ttf in Resources */,
 				7F87D62C288F37E000284ED4 /* FileCell.xib in Resources */,
 				7FF94ADC288F2A0700E933D7 /* Assets.xcassets in Resources */,
 				3E00E1E9289AF21F0070AA20 /* Rubik-Medium.ttf in Resources */,
+				7FAD7D0D289AFD84000FA996 /* ProfileCell.xib in Resources */,
 				3E00E1EC289AF21F0070AA20 /* SFPRODISPLAYBOLD.OTF in Resources */,
 				3E00E1EA289AF21F0070AA20 /* Mulish-Regular.ttf in Resources */,
 			);
@@ -375,12 +422,14 @@
 			files = (
 				7F87D633288F451100284ED4 /* InfoPageController.swift in Sources */,
 				3E00E1D6289AEF5D0070AA20 /* AutentificationViewController.swift in Sources */,
+				7FAD7D0B289AFD84000FA996 /* SettingCell.swift in Sources */,
 				3E00E1D7289AEF5D0070AA20 /* AutentificationConfigurator.swift in Sources */,
 				7FAD7CE5289AE77D000FA996 /* TabBarController.swift in Sources */,
 				7F87D622288F33E700284ED4 /* CarsController.swift in Sources */,
 				7FAD7CE8289AE7CE000FA996 /* UIViewController+Extensions.swift in Sources */,
 				7F87D638288F46EE00284ED4 /* FilesController.swift in Sources */,
 				7F87D61F288F2DCF00284ED4 /* CarCell.swift in Sources */,
+				7FAD7CF8289AF8E3000FA996 /* CCSettingPoint.swift in Sources */,
 				7F87D626288F37C800284ED4 /* ServiceCell.swift in Sources */,
 				7FAD7CEC289AEA12000FA996 /* ServicesController.swift in Sources */,
 				7F87D62F288F380000284ED4 /* CarInfoController.swift in Sources */,
@@ -388,8 +437,11 @@
 				7F87D62B288F37E000284ED4 /* FileCell.swift in Sources */,
 				3E00E1D5289AEF5D0070AA20 /* AutentificationViewControllerView.swift in Sources */,
 				7FF94AD3288F2A0500E933D7 /* AppDelegate.swift in Sources */,
+				7FAD7CF0289AF867000FA996 /* SettingsController.swift in Sources */,
 				3E00E1DF289AF0050070AA20 /* AppFonts.swift in Sources */,
+				7FAD7D0C289AFD84000FA996 /* ProfileCell.swift in Sources */,
 				3E00E1DA289AEF910070AA20 /* AuthorizationButtonView.swift in Sources */,
+				7FAD7CFF289AF998000FA996 /* UITableView+Extensions.swift in Sources */,
 				7FF94AD5288F2A0500E933D7 /* SceneDelegate.swift in Sources */,
 				3E00E1E3289AF0A50070AA20 /* UIView+Extension.swift in Sources */,
 				3E00E1DE289AF0050070AA20 /* AppColor.swift in Sources */,

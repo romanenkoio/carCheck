@@ -18,7 +18,7 @@ class TabBarController: UITabBarController {
     private func setupTabBar() {
         let list = UINavigationController(rootViewController: CarsController())
         let services = UINavigationController(rootViewController: ServicesController())
-        let setting = UINavigationController(rootViewController: CarsController())
+        let setting = UINavigationController(rootViewController: SettingsController())
 
         list.tabBarItem = UITabBarItem(title: "Мой гараж", image: UIImage(systemName: "checklist"), tag: 0)
         services.tabBarItem = UITabBarItem(title: "Сервисы", image: UIImage(systemName: "gear"), tag: 1)
